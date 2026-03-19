@@ -1,4 +1,4 @@
-# ☕ Java Academy Projects
+# 🚀 Java Academy Projects
 
 <div align="center">
 
@@ -19,43 +19,53 @@
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven)](https://maven.apache.org/)
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)]()
 
-> 🎓 Percorso formativo **Java Academy** — finanziato da **Forma.Temp**, erogato da **Bcsoft**
-
 </div>
 
 ---
 
-## 🗺️ Il Viaggio
+## 🎓 Java Academy
 
-Questo repository è la mappa di un percorso: da zero alla padronanza del backend Java.
-Ogni cartella è una tappa, ogni classe un passo avanti.
-
-```
-📦 java-academy
- ┣ 📂 01-basi             → I primi passi: variabili, cicli, condizioni
- ┣ 📂 02-oop              → Il cuore di Java: classi, eredità, polimorfismo
- ┣ 📂 03-collezioni       → Array, ArrayList, Set, Map — dati sotto controllo
- ┣ 📂 04-eccezioni        → Gestire l'imprevisto con grazia
- ┣ 📂 05-progetti         → Mini-app reali: le mani in pasta 🍝
- ┣ 📂 06-spring-boot      → REST API e web app professionali
- ┗ 📂 07-hibernate-jpa    → Persistenza dati & ORM mapping
-```
+Questo repository contiene esercizi, progetti e sperimentazioni pratiche in **Java**, inclusi **Spring Boot** e **Hibernate**, realizzati durante il percorso formativo della **Java Academy** — finanziata da **Forma.Temp** ed erogata da **Bcsoft**.
 
 ---
 
-## 🧠 Cosa trovi qui dentro
+## 📚 Contenuto del repository
 
-### 🔰 Fondamenta Solide
-> *Perché un grattacielo senza fondamenta è solo un sogno*
+```
+📦 java-academy
+ ┣ 📂 esercizi-base       → variabili, operatori, condizioni e cicli
+ ┣ 📂 oop                 → classi, oggetti, ereditarietà, polimorfismo e interfacce
+ ┣ 📂 collezioni          → Array, ArrayList, Set, Map
+ ┣ 📂 eccezioni           → eccezioni personalizzate
+ ┣ 📂 progetti            → mini-applicazioni per esercitazioni reali
+ ┣ 📂 spring-boot         → applicazioni web e RESTful API
+ ┗ 📂 hibernate-jpa       → persistenza dati e mapping oggetti-relazionale
+```
 
-- Variabili, operatori, strutture di controllo
-- Programmazione **Orientata agli Oggetti** (OOP)
-  - Classi & Oggetti · Ereditarietà · Polimorfismo · Interfacce
-- Collezioni: `Array` `ArrayList` `Set` `Map`
-- Eccezioni personalizzate & gestione errori robusta
+### 🔰 Esercizi Base
+Variabili, operatori, strutture di controllo: le fondamenta su cui si costruisce tutto il resto.
 
-### ⚡ Stack Professionale
-> *Gli strumenti dei veri backend developer*
+### 🧩 Programmazione Orientata agli Oggetti (OOP)
+Classi, oggetti, ereditarietà, polimorfismo e interfacce — il cuore pulsante di Java.
+
+### 🗂️ Collezioni e Strutture Dati
+`Array` · `ArrayList` · `Set` · `Map` — dati organizzati, dati sotto controllo.
+
+### 🛡️ Gestione Eccezioni
+Eccezioni personalizzate per gestire l'imprevisto con eleganza e robustezza.
+
+### 🛠️ Progetti Pratici
+Mini-applicazioni per esercitazioni reali: le mani in pasta, il codice che gira davvero.
+
+### 🌱 Spring Boot
+Applicazioni web e RESTful API professionali con il framework più usato nel mondo Java.
+
+### 🗄️ Hibernate & JPA
+Persistenza dati e mapping oggetti-relazionale: dal database alle classi Java, senza sforzo.
+
+---
+
+## ⚡ Tecnologie e strumenti
 
 | Tecnologia | Versione | Scopo |
 |---|---|---|
@@ -63,57 +73,47 @@ Ogni cartella è una tappa, ogni classe un passo avanti.
 | 🌱 Spring Boot | 3.x | Web app & RESTful API |
 | 🗄️ Hibernate / JPA | Latest | Persistenza & ORM |
 | 🔨 Maven / Gradle | — | Build & dipendenze |
-| 💻 IntelliJ / Eclipse | — | IDE di sviluppo |
+| 💻 Eclipse / IntelliJ IDEA | — | IDE di sviluppo |
 | 🐙 Git & GitHub | — | Version control |
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Come eseguire i progetti
 
+**1. Clona il repository:**
 ```bash
-# 1️⃣ Clona il repo
 git clone https://github.com/tuo-username/java-academy.git
-cd java-academy
+```
 
-# 2️⃣ Per i progetti Java base
-# Apri nel tuo IDE → esegui Main.java
+**2.** Apri il progetto nel tuo IDE preferito.
 
-# 3️⃣ Per i progetti Spring Boot
+**3.** Per i progetti **Java base**, esegui la classe principale `Main.java`.
+
+**4.** Per i progetti **Spring Boot**:
+```bash
 mvn spring-boot:run
-
-# 4️⃣ Per Hibernate: configura il DB
-# → src/main/resources/application.properties
 ```
+
+**5.** Per **Hibernate**, configura il database in `application.properties`.
 
 ---
 
-## 🎯 Obiettivi & Roadmap
+## 🎯 Obiettivi personali
 
 ```
-[✅] Fondamenta Java & OOP
-[✅] Collezioni & strutture dati
-[🔄] Spring Boot — RESTful API
-[🔄] Hibernate / JPA
-[⏳] Progetti pratici end-to-end
-[⏳] Certificazioni Java avanzate
-[⏳] Colloqui tecnici — LOCKED & LOADED 🔒
+[✅] Consolidare basi di Java e OOP
+[🔄] Sviluppare applicazioni web e RESTful API con Spring Boot
+[🔄] Gestire dati persistenti con Hibernate / JPA
+[⏳] Realizzare progetti pratici e strumenti utili
+[⏳] Prepararmi a colloqui tecnici e certificazioni Java avanzate
 ```
-
----
-
-## 💡 Filosofia del repository
-
-> *"Il codice è come la poesia: si può scrivere per funzionare,*
-> *o si può scrivere per essere capito. Qui puntiamo a entrambi."*
-
-Ogni esercizio non è solo codice che compila — è **comprensione che resta**.
 
 ---
 
 <div align="center">
 
-**Fatto con ☕ caffè, 🧠 pazienza e tanta voglia di imparare**
+**Fatto con ☕ caffè, 🧠 curiosità e tanta voglia di imparare**
 
-*Java Academy · Forma.Temp × Bcsoft · 2026*
+*Java Academy · Forma.Temp × Bcsoft*
 
 </div>
