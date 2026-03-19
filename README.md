@@ -1,4 +1,4 @@
-# 🚀 Java Academy Projects
+# 🚀 Java Academy
 
 <div align="center">
 
