@@ -1,4 +1,4 @@
-# 🚀 Java Academy Bcsoft
+# 🚀 Bcsoft Java Academy
 
 <div align="center">
 
