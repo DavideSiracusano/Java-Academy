@@ -71,29 +71,8 @@ Persistenza dati e mapping oggetti-relazionale: dal database alle classi Java, s
 | ☕ Java | 17+ | Linguaggio principale |
 | 🌱 Spring Boot | 3.x | Web app & RESTful API |
 | 🗄️ Hibernate / JPA | Latest | Persistenza & ORM |
-| 🔨 Maven / Gradle | — | Build & dipendenze |
 | 💻 Eclipse / IntelliJ IDEA | — | IDE di sviluppo |
 | 🐙 Git & GitHub | — | Version control |
-
----
-
-## 🚀 Come eseguire i progetti
-
-**1. Clona il repository:**
-```bash
-git clone https://github.com/tuo-username/java-academy.git
-```
-
-**2.** Apri il progetto nel tuo IDE preferito.
-
-**3.** Per i progetti **Java base**, esegui la classe principale `Main.java`.
-
-**4.** Per i progetti **Spring Boot**:
-```bash
-mvn spring-boot:run
-```
-
-**5.** Per **Hibernate**, configura il database in `application.properties`.
 
 ---
 
